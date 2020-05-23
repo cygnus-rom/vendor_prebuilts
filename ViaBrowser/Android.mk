@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-nclude $(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := ViaBrowser
 LOCAL_SRC_FILES := via.apk
 LOCAL_MODULE_CLASS := APPS
